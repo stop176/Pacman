@@ -258,42 +258,34 @@ public class Pacman implements KeyListener {
 		if (Wall.walls[getBlockRow(Direction.LEFT)][getBlockColumn(Direction.LEFT)] == 3) {
 			Wall.walls[getBlockRow(Direction.LEFT)][getBlockColumn(Direction.LEFT)] = 0;
 			ghost=true;
-			stepSize=1.5;
 		} else if (Wall.walls[getBlockRow(Direction.RIGHT)][getBlockColumn(Direction.RIGHT)] == 3) {
 			Wall.walls[getBlockRow(Direction.RIGHT)][getBlockColumn(Direction.RIGHT)] = 0;
 			ghost=true;
-			stepSize=1.5;
 		} else if (Wall.walls[getBlockRow(Direction.UP)][getBlockColumn(Direction.UP)] == 3) {
 			Wall.walls[getBlockRow(Direction.UP)][getBlockColumn(Direction.UP)] = 0;
 			ghost=true;
-			stepSize=1.5;
 
 		} else if (Wall.walls[getBlockRow(Direction.DOWN)][getBlockColumn(Direction.DOWN)] == 3) {
 			Wall.walls[getBlockRow(Direction.DOWN)][getBlockColumn(Direction.DOWN)] = 0;
 			ghost=true;
-			stepSize=1.5;
 
 		}
 //for pac1
 		if (Wall.walls[getBlockRow1(Direction.LEFT1)][getBlockColumn1(Direction.LEFT1)] == 3) {
 			Wall.walls[getBlockRow1(Direction.LEFT1)][getBlockColumn1(Direction.LEFT1)] = 0;
 			ghost1=true;
-			stepSize=1.5;
 
 		} else if (Wall.walls[getBlockRow1(Direction.RIGHT1)][getBlockColumn1(Direction.RIGHT1)] == 3) {
 			Wall.walls[getBlockRow1(Direction.RIGHT1)][getBlockColumn1(Direction.RIGHT1)] = 0;
 			ghost1=true;
-			stepSize=1.5;
 
 		} else if (Wall.walls[getBlockRow1(Direction.UP1)][getBlockColumn1(Direction.UP1)] == 3) {
 			Wall.walls[getBlockRow1(Direction.UP1)][getBlockColumn1(Direction.UP1)] = 0;
 			ghost1=true;
-			stepSize=1.5;
 
 		} else if (Wall.walls[getBlockRow1(Direction.DOWN1)][getBlockColumn1(Direction.DOWN1)] == 3) {
 			Wall.walls[getBlockRow1(Direction.DOWN1)][getBlockColumn1(Direction.DOWN1)] = 0;
 			ghost1=true;
-			stepSize=1.5;
 
 		}
 
